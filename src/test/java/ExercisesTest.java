@@ -17,8 +17,8 @@ public class ExercisesTest extends BaseUtils{
 
     driver.get("http://demowebshop.tricentis.com/");
 
-    WebElement computersDrop = driver.findElement(By.xpath("//a[@href='/computers'][1]"));
-    WebElement desktops = driver.findElement(By.xpath("//a[@href='/desktops'][1]"));
+    WebElement computersDrop = driver.findElement(By.xpath("//a[@href='/computers']"));
+    WebElement desktops = driver.findElement(By.xpath("//a[@href='/desktops']"));
 
     Actions action = new Actions(driver);
 
